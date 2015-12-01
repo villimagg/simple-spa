@@ -1,7 +1,10 @@
-# Help much appreciated
+# A Simple SPA from scratch
 
-**Problem:** Nav links not updating their `active` state when navigating within the site allthough console.log shows an updated class list of the supposed-to-be formely active li element.
+Just for demonstration purposes, and for total beginners in Javascript Web Apps to understand how it works.
 
----
+Mind that I am by no means saying that SPA's should be done, or that they are done like this as this is
+only a simple demo. For the sake of developing real-world SPA's use a framework like Backbone, Angular.js,
+React.js, or one of the many great frameworks available. But it helps understanding what is sort of going
+on behind the scenes.
 
-At line 28 in `js/app.js` I'm doing an `$('.nav-parent').removeClass('active');`. It doesn't seem to matter weather or not I'm using jQuery or plain vanilla Javascript. The class `active` doesn't get removed from the DOM when clicking on a navigation link. I've tried `event.stopPropagation();` in various places and `$(el).off();` to unbind the click event from the handler without any luck.
+Enjoy.
